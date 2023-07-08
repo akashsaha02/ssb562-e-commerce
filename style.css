@@ -1,0 +1,232 @@
+/* CSS for the entire site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #31183b;
+    color: #fff;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 40px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 7rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cart a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    background-color: #703787;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.hero {
+    background-color: whitesmoke;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    text-align: center;
+    background-color: #31183b;
+    border-radius: 10px;
+    padding: 100px;
+    opacity: 0.9;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: #ff8c2f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #31183b;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+.products {
+    padding: 40px;
+}
+
+.products h2{
+    text-align: center;
+}
+
+.products hr{
+    width: 40%;
+    border: 3px solid #31183b;
+    border-radius: 5px;
+}
+
+.product-listing {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: lightgrey;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #703787;
+}
+
+.product img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product p {
+    margin: 5px 0;
+}
+
+.product button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact {
+    padding: 40px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact label {
+    margin-bottom: 10px;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contact button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
+
+.about {
+    text-align: center;
+}
+
+.about p {
+    padding: 30px 100px;
+}
+
+/* Checkout page */
+.checkout-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.checkout-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
